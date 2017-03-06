@@ -38,6 +38,10 @@ import pandas as pd
 ###############################################################################
 ################################### GO ########################################
 ###############################################################################
+
+SVM = pd.read_pickle('general_SVM_sp.pck')
+SVMXP= pd.read_pickle('general_SVM_xp.pck')
+
 def sfselect(sweep_pop_freqs, neut_pop_freqs=None, svm=None, svm_path='/home/arya/bin/sfselect/SVMs/', nbins=10,
              nbins_case=7, nbins_cont=7, bins=[], specific_s=None, specific_t=None, removeFixedSites=False):
     sweep_pop_freqs_w=sweep_pop_freqs.copy()
