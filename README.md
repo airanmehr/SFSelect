@@ -4,7 +4,7 @@ SFselect
 Learning Natural Selection from the Site Frequency Spectrum
 
 
-This repo includes two main programs:
+This repoository is forked from https://github.com/rronen/SFselect.  It includes two main programs:
 
 1) SFselect.py -- a standalone program for applying pre-trained SVMs of the site frequency spectrum (SFS) to allele frequency data. The output is for each sliding genomic window a probability under the model that the window is evolving under a sweep.
 
